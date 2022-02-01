@@ -154,8 +154,8 @@ ul li a:hover {
 }
 
 .form {
-    width: 250px;
-    height: 380px;
+    width: 283px;
+    height: 394px;
     background: linear-gradient(to top, rgba(0, 0, 0, 0.8)50%, rgba(0, 0, 0, 0.8)50%);
     position: absolute;
     top: -20px;
@@ -171,8 +171,10 @@ ul li a:hover {
     font-size: 22px;
     background-color: white;
     border-radius: 10px;
-    margin: 2px;
+    margin: 17px;
     padding: 8px;
+    position: relative;
+    right: -6px;
 }
 
 .form input {
@@ -186,8 +188,9 @@ ul li a:hover {
     color: white;
     font-size: 15px;
     letter-spacing: 1px;
-    margin-top: 30px;
+    margin-top: 10px;
     font-family: sans-serif;
+    margin-left: 20px;
 }
 
 .form input:focus {
@@ -210,6 +213,7 @@ ul li a:hover {
     cursor: pointer;
     transition: 0.4s;
     text-decoration: none;
+    margin-left: 20px;
     color: white;
 }
 
@@ -223,18 +227,33 @@ ul li a:hover {
 
 .form .link {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 17px;
-    padding-top: 20px;
+    font-size: 12px;
     text-align: center;
+    position: relative;
+    right: 7px;
 }
 
 .form .link a {
     text-decoration: none;
+    font-size: 20px;
     color: #ff7200;
 }
 
+.form span {
+    position: relative;
+    color: white;
+    top: -6px;
+}
+
 .liw {
-    padding-top: 15px;
-    padding-bottom: 10px;
+    /* padding-top: 15px;
+    padding-bottom: 10px; */
     text-align: center;
+    position: relative;
+    top: -38px;
+    left: -4px;
+}
+
+#media {
+    size: 10px;
 }
